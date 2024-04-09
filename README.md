@@ -9,12 +9,24 @@
 
 Create a new environment
 
+#if using anaconda
 ```
 conda create -p venv python==3.7 -y
 ```
-
-## creating a new environment(in command prompt)
+#in windows cmd
+```
 python -m venv venv
+```
+Upgrade pip version
+```
 python.exe -m pip install --upgrade pip
+```
+Install all library requirments
+```
 pip install -r requirements.txt
+```
+Run if using jupyter notebook(to run cells by using venv)
+```
 -m pip install ipykernel -U --force-reinstall
+```
+
