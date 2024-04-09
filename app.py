@@ -3,11 +3,11 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #loading models
-diabetes_model=pickle.load(open("C:/Users/hp/Desktop/code/python/model/diabetes.sav",'rb'))
-parkison_model=pickle.load(open("C:/Users/hp/Desktop/code/python/model/parkison.sav",'rb'))
-heart_model=pickle.load(open("C:/Users/hp/Desktop/code/python/model/heart.sav",'rb'))
-scaler_diabetes=pickle.load(open("C:/Users/hp/Desktop/code/python/model/scaler_dia.pkl",'rb'))
-scaler_parkison=pickle.load(open("C:/Users/hp/Desktop/code/python/model/scaler_par.pkl",'rb'))
+diabetes_model=pickle.load(open("C:/Users/hp/Desktop/code/multiple disease/Multiple-Disease-Prediction/diabetes.sav",'rb'))
+parkison_model=pickle.load(open("C:/Users/hp/Desktop/code/multiple disease/Multiple-Disease-Prediction/parkison.sav",'rb'))
+heart_model=pickle.load(open("C:/Users/hp/Desktop/code/multiple disease/Multiple-Disease-Prediction/heart.sav",'rb'))
+scaler_diabetes=pickle.load(open("C:/Users/hp/Desktop/code/multiple disease/Multiple-Disease-Prediction/scaler_dia.pkl",'rb'))
+scaler_parkison=pickle.load(open("C:/Users/hp/Desktop/code/multiple disease/Multiple-Disease-Prediction/scaler_par.pkl",'rb'))
 
 #sidebar for navigate
 with st.sidebar:
